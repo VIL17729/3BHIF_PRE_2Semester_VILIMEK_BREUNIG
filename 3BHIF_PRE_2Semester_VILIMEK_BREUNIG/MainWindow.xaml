@@ -13,19 +13,21 @@
 			<RowDefinition/>
 		</Grid.RowDefinitions>
 		<Grid.ColumnDefinitions>
-			<ColumnDefinition/>
-			<ColumnDefinition/>
-		</Grid.ColumnDefinitions>
-		<Menu Grid.Row="0" Grid.ColumnSpan="2">
-			<MenuItem Header="File"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+		<Menu Grid.Row="0">
+			<MenuItem Header="Start"/>
+            <MenuItem Header="Neuer Patient"/>
+            <MenuItem Header="Einstellungen"/>
+            <MenuItem Header="Hilfe"/>
 		</Menu>
-		<ComboBox x:Name="cbox0" Grid.Column="0" Grid.Row="1" SelectionChanged="cbox0_SelectionChanged">
+		<!--ComboBox x:Name="cbox0" Grid.Column="0" Grid.Row="1" SelectionChanged="cbox0_SelectionChanged">
 			<ComboBoxItem IsSelected="True">Behandlung</ComboBoxItem>
 			<ComboBoxItem>Besuch</ComboBoxItem>
 			<ComboBoxItem>Patient</ComboBoxItem>
 			<ComboBoxItem>Termin</ComboBoxItem>
 			<ComboBoxItem>Verletzung</ComboBoxItem>
-		</ComboBox>
+		</>
 		<ComboBox x:Name="cbox1" Grid.Column="1" Grid.Row="1" SelectionChanged="cbox1_SelectionChanged">
 			<ComboBoxItem IsSelected="True">Bitte Auswählen</ComboBoxItem>
 			<ComboBoxItem>Behandlung</ComboBoxItem>
@@ -35,6 +37,6 @@
 			<ComboBoxItem>Verletzung</ComboBoxItem>
 		</ComboBox>
 		<ListBox Grid.ColumnSpan="2" Grid.Row="2"/>
-		<ListBox Grid.Column="1" Grid.Row="2" Visibility="Hidden"/>
+		<ListBox Grid.Column="1" Grid.Row="2" Visibility="Hidden"/!-->
 	</Grid>
 </Window>

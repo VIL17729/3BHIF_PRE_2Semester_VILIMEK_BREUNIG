@@ -31,11 +31,12 @@ namespace _3BHIF_PRE_2Semester_VILIMEK_BREUNIG
 
 		}
 
-		private void cbox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+		/*private void cbox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{
 			if (cbox1.SelectedIndex == 0)
 			{
 				cbox1.Visibility = Visibility.Hidden;
+                Grid.SetColumnSpan(cbox0, 1);
 			}
 			else
 			{
@@ -53,6 +54,6 @@ namespace _3BHIF_PRE_2Semester_VILIMEK_BREUNIG
 						break;
 				}
 			}
-		}
+		}*/
 	}
 }
