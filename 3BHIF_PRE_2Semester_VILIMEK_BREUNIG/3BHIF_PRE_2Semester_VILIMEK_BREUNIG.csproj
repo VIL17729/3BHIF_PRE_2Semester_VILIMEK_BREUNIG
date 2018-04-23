@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5751A0D8-9435-4E93-B52C-9B2E9105A474}</ProjectGuid>
+    <ProjectGuid>{F2623E2A-4F90-4F90-919F-856C92E29BA7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>_3BHIF_PRE_2Semester_VILIMEK_BREUNIG</RootNamespace>
     <AssemblyName>3BHIF_PRE_2Semester_VILIMEK_BREUNIG</AssemblyName>
@@ -92,9 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="modell\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
