@@ -20,7 +20,6 @@
             <MenuItem Header="Neuer Patient"/>
             <MenuItem Header="Einstellungen"/>
             <MenuItem Header="Hilfe"/>
-            <MenuItem Header="Whatever"/>
         </Menu>
 		<!--ComboBox x:Name="cbox0" Grid.Column="0" Grid.Row="1" SelectionChanged="cbox0_SelectionChanged">
 			<ComboBoxItem IsSelected="True">Behandlung</ComboBoxItem>
