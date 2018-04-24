@@ -4,8 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3BHIF_PRE_2Semester_VILIMEK_BREUNIG"
+        xmlns:usercontrol="clr-namespace:_3BHIF_PRE_2Semester_VILIMEK_BREUNIG.UC"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="EWMS" Height="350" Width="525">
     <Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="auto"/>
@@ -38,5 +39,6 @@
 		</ComboBox>
 		<ListBox Grid.ColumnSpan="2" Grid.Row="2"/>
 		<ListBox Grid.Column="1" Grid.Row="2" Visibility="Hidden"/!-->
-	</Grid>
+        <usercontrol:Start Grid.Row="1"/>
+    </Grid>
 </Window>
