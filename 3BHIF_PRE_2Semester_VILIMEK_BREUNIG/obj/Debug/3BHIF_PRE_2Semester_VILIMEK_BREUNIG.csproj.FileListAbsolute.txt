@@ -28,3 +28,5 @@ C:\Users\Schule\Documents\Schule\PRE\EWMS\3BHIF_PRE_2Semester_VILIMEK_BREUNIG\3B
 C:\Users\Schule\Documents\Schule\PRE\EWMS\3BHIF_PRE_2Semester_VILIMEK_BREUNIG\3BHIF_PRE_2Semester_VILIMEK_BREUNIG\obj\Debug\_3BHIF_PRE_2Semester_VILIMEK_BREUNIG.Properties.Resources.resources
 C:\Users\Schule\Documents\Schule\PRE\EWMS\3BHIF_PRE_2Semester_VILIMEK_BREUNIG\3BHIF_PRE_2Semester_VILIMEK_BREUNIG\obj\Debug\3BHIF_PRE_2Semester_VILIMEK_BREUNIG.csproj.GenerateResource.cache
 C:\Users\Schule\Documents\Schule\PRE\EWMS\3BHIF_PRE_2Semester_VILIMEK_BREUNIG\3BHIF_PRE_2Semester_VILIMEK_BREUNIG\obj\Debug\3BHIF_PRE_2Semester_VILIMEK_BREUNIG.csproj.CoreCompileInputs.cache
+C:\Users\Schule\Documents\Schule\PRE\EWMS\3BHIF_PRE_2Semester_VILIMEK_BREUNIG\3BHIF_PRE_2Semester_VILIMEK_BREUNIG\obj\Debug\3BHIF_PRE_2Semester_VILIMEK_BREUNIG.csprojResolveAssemblyReference.cache
+C:\Users\Schule\Documents\Schule\PRE\EWMS\3BHIF_PRE_2Semester_VILIMEK_BREUNIG\3BHIF_PRE_2Semester_VILIMEK_BREUNIG\obj\Debug\GeneratedInternalTypeHelper.g.cs
