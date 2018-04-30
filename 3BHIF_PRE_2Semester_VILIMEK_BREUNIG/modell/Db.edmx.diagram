@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7ac9509bbef946548fcffb8acce25bcc" Name="Diagram1">
+        <EntityTypeShape EntityType="DbModel.Behandlung" Width="1.5" PointX="7.625" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.Patient" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.Termin" Width="1.5" PointX="9.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.TundBvonP" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.Verletzung" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.VvonP" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="DbModel.FK_VvonP_B" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModel.FK_TundBvonP_P" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModel.FK_VvonP_P" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModel.FK_TundBvonP_T" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModel.FK_VvonP_V" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
