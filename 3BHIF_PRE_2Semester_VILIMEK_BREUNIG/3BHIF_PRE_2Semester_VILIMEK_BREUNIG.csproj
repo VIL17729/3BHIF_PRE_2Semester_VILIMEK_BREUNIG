@@ -122,10 +122,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DataSource\Patientendaten.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="DataSource\Patientendaten_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>Patientendaten.mdf</DependentUpon>
     </Content>
   </ItemGroup>

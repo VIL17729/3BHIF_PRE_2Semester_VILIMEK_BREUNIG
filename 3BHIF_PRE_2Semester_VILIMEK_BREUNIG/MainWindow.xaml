@@ -18,7 +18,7 @@
         </Grid.ColumnDefinitions>
 		<Menu Grid.Row="0">
 			<MenuItem Header="Start"/>
-            <MenuItem Header="Neuer Patient"/>
+            <MenuItem Header="Patienten"/>
             <MenuItem Header="Einstellungen"/>
             <MenuItem Header="Hilfe"/>
         </Menu>
