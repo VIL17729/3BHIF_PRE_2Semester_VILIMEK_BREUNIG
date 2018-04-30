@@ -71,6 +71,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UC\Patienten.xaml.cs">
+      <DependentUpon>Patienten.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UC\Start.xaml.cs">
       <DependentUpon>Start.xaml</DependentUpon>
     </Compile>
@@ -86,6 +89,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UC\Patienten.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UC\Start.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -119,6 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="modell\" />
+    <Folder Include="UC\New-Edit\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DataSource\Patientendaten.mdf">
