@@ -1,0 +1,21 @@
+﻿<Window x:Class="_3BHIF_PRE_2Semester_VILIMEK_BREUNIG.NewEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3BHIF_PRE_2Semester_VILIMEK_BREUNIG"
+        mc:Ignorable="d"
+        Title="NewEdit" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition Height="auto"/>
+		</Grid.RowDefinitions>
+		<!--Diverse UserControls aus UC/New-Edit, deren Visibility hidden ist und je nach Entity angezeigt werden!-->
+		<StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+			<TextBlock x:Name="Error" Margin="3" Foreground="Red" Visibility="Hidden">Fehlerhafte Eingabe</TextBlock>
+			<Button Content="Ok" Padding="5,0" Margin="3" Click="OkCancel"/>
+			<Button Content="Cancel" Padding="5,0" Margin="3" Click="OkCancel"/>
+		</StackPanel>
+	</Grid>
+</Window>
