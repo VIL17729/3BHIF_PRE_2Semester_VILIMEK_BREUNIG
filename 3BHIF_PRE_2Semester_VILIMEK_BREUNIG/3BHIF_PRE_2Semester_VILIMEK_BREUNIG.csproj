@@ -80,39 +80,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="modell\Behandlung.cs">
-      <DependentUpon>Db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="modell\Db.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Db.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="modell\Db.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="modell\Db.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Db.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="modell\Patient.cs">
-      <DependentUpon>Db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="modell\Termin.cs">
-      <DependentUpon>Db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="modell\TundBvonP.cs">
-      <DependentUpon>Db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="modell\Verletzung.cs">
-      <DependentUpon>Db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="modell\VvonP.cs">
-      <DependentUpon>Db.tt</DependentUpon>
-    </Compile>
     <Compile Include="NewEdit.xaml.cs">
       <DependentUpon>NewEdit.xaml</DependentUpon>
     </Compile>
@@ -165,13 +132,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="modell\Db.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Db.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="modell\Db.edmx.diagram">
-      <DependentUpon>Db.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -182,6 +142,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="modell\" />
     <Folder Include="UC\New-Edit\" />
   </ItemGroup>
   <ItemGroup>
@@ -191,16 +152,6 @@
     <Content Include="DataSource\Patientendaten_log.ldf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>Patientendaten.mdf</DependentUpon>
-    </Content>
-    <Content Include="modell\Db.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Db.Context.cs</LastGenOutput>
-      <DependentUpon>Db.edmx</DependentUpon>
-    </Content>
-    <Content Include="modell\Db.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Db.edmx</DependentUpon>
-      <LastGenOutput>Db.cs</LastGenOutput>
     </Content>
     <Content Include="Patientendaten.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
