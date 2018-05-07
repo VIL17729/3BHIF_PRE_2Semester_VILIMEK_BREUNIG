@@ -29,7 +29,7 @@
 			<ComboBoxItem>Termin</ComboBoxItem>
 			<ComboBoxItem>Verletzung</ComboBoxItem>
 		</ComboBox>
-		<ListBox x:Name="lb0" Grid.ColumnSpan="2" Grid.Row="1" MouseDoubleClick="ListBox_MouseDoubleClick"/>
-		<ListBox x:Name="lb1" Grid.Column="1" Grid.Row="1" Visibility="Hidden"/>
+		<ListBox Grid.ColumnSpan="2" Grid.Row="1" MouseDoubleClick="ListBox_MouseDoubleClick"/>
+		<ListBox Grid.Column="1" Grid.Row="1" Visibility="Hidden"/>
 	</Grid>
 </UserControl>

@@ -17,12 +17,12 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 		<Menu Grid.Row="0">
-			<MenuItem Header="Start"/>
-			<MenuItem Header="Patienten"/>
-			<MenuItem Header="Einstellungen"/>
-			<MenuItem Header="Hilfe"/>
+			<MenuItem Header="Start" Click="Start_Click"/>
+            <MenuItem Header="Patienten" Click="Patient_Click"/>
+            <MenuItem Header="Einstellungen" Click="Settings_Click"/>
+            <MenuItem Header="Hilfe" Click="Help_Click"/>
 		</Menu>
-		<usercontrol:Start Grid.Row="1" Visibility="Hidden"/>
+		<usercontrol:Start x:Name="uc" Grid.Row="1"/>
         <TextBlock Grid.Row="2" Text="Copyright 2018" HorizontalAlignment="Left" Margin="10 2"/>
         <TextBlock Grid.Row="2" Text="EWMS Company" HorizontalAlignment="Right" Margin="10 2"/>
     </Grid>

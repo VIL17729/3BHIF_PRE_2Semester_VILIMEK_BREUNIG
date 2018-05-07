@@ -30,15 +30,6 @@ namespace _3BHIF_PRE_2Semester_VILIMEK_BREUNIG.UC
 			ComboBox c = (ComboBox)sender;
 			if(c.Name.Equals("cbox0"))
 			{
-				switch(cbox0.SelectedIndex)
-				{
-					case 0:
-						lb0.ItemsSource = null;
-						break;
-					case 1:
-						lb0.ItemsSource = Patientendaten
-						break;
-				}
 			} else
 			{
 			}
