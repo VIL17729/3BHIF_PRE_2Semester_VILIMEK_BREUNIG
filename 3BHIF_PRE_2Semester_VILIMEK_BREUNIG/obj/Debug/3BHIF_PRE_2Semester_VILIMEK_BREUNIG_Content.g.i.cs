@@ -10,8 +10,8 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("datasource/patientendaten.mdf")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("datasource/patientendaten_log.ldf")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("modell/model1.context.tt")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("modell/model1.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("modell/data.context.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("modell/data.tt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("patientendaten.mdf")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("patientendaten_log.ldf")]
 
