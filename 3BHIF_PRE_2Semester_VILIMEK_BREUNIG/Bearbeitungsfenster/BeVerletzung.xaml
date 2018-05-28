@@ -1,0 +1,22 @@
+﻿<Window x:Class="_3BHIF_PRE_2Semester_VILIMEK_BREUNIG.Bearbeitungsfenster.BeVerletzung"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3BHIF_PRE_2Semester_VILIMEK_BREUNIG.Bearbeitungsfenster"
+        mc:Ignorable="d"
+        Title="Verletzung Bearbeiten/Erstellen" Height="150" Width="250">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Verletzung" FontSize="42" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Name der Verletzung" Margin="5"/>
+                <TextBox Text="{Binding Path=AktVerletzung.Name}" MinWidth="50" Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="Save" IsDefault="True"  Content="Speichern"  Margin="4" Click="Save_Click"/>
+                <Button x:Name="Cancel" IsCancel="True"  Margin="4" Content="Abbruch"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
