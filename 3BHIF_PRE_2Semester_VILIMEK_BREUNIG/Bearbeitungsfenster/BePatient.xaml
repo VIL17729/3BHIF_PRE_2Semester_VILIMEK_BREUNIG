@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3BHIF_PRE_2Semester_VILIMEK_BREUNIG.Bearbeitungsfenster"
         mc:Ignorable="d"
-        Title="Patienten Bearbeiten" Height="270" Width="280">
+        Title="Patienten Bearbeiten" Height="300" Width="300">
     <Grid>
         <StackPanel>
             <TextBlock Text="Patient" FontSize="42" HorizontalAlignment="Center"/>

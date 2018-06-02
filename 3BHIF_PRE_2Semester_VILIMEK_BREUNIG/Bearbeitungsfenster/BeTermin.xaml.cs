@@ -23,5 +23,11 @@ namespace _3BHIF_PRE_2Semester_VILIMEK_BREUNIG.Bearbeitungsfenster
         {
             InitializeComponent();
         }
+
+        private void Save_Click(object sender, RoutedEventArgs e)
+        {
+            // dies ist leider notwenig um die DialogBox mit OK zu schliessen
+            DialogResult = true;
+        }
     }
 }

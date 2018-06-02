@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3BHIF_PRE_2Semester_VILIMEK_BREUNIG.Bearbeitungsfenster"
         mc:Ignorable="d"
-        Title="Termin Bearbeiten/Erstellen" Height="300" Width="300">
+        Title="Termin Bearbeiten/Erstellen" Height="180" Width="300">
     <Grid>
         <StackPanel>
             <TextBlock Text="Termin" FontSize="42" HorizontalAlignment="Center"/>
@@ -16,6 +16,10 @@
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="Uhrzeit" Margin="5"/>
                 <TextBox Text="{Binding Path=AktTermin.Nr}" MinWidth="50" Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 0 0 10">
+                <Button x:Name="Save" IsDefault="True"  Content="Speichern"  Margin="4" Click="Save_Click"/>
+                <Button x:Name="Cancel" IsCancel="True"  Margin="4" Content="Abbruch"/>
             </StackPanel>
         </StackPanel>
     </Grid>
