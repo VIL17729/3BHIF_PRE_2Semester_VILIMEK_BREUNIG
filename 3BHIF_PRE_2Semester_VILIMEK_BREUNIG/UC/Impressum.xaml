@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="_3BHIF_PRE_2Semester_VILIMEK_BREUNIG.UC.Settings"
+﻿<UserControl x:Class="_3BHIF_PRE_2Semester_VILIMEK_BREUNIG.UC.Impressum"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -11,7 +11,12 @@
             <RowDefinition Height="auto"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Einstellungen" FontSize="50" HorizontalAlignment="Center" Margin="0 0 0 20" />
-        <TextBlock Grid.Row="1" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Margin="100 0 100 0" Text="Es gibt noch nichts was eingestellt werden kann. In Zukunft werden hier einige Designsachen geändert werden können. Falls es individuelle Wünsche gibt bitte an die Kontakte im Impressum wenden."/>
+        <TextBlock Text="Impressum" FontSize="50" HorizontalAlignment="Center" Margin="0 0 0 20" />
+        <StackPanel Grid.Row="1" Margin="5 0">
+            <TextBlock Text="Stefan Vilimek" FontSize="25" FontWeight="Bold"/>
+            <TextBlock Text="E-Mail: vil17729@spengergasse.at" FontSize="20" Margin="10 5"/>
+            <TextBlock Text="Felix Breunig" FontSize="25" FontWeight="Bold"/>
+            <TextBlock Text="E-Mail: bre17417@spengergasse.at" FontSize="20" Margin="10 5"/>
+        </StackPanel>
     </Grid>
 </UserControl>

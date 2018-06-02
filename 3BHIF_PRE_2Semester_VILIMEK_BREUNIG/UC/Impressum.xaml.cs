@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace _3BHIF_PRE_2Semester_VILIMEK_BREUNIG.UC
 {
     /// <summary>
-    /// Interaction logic for Settings.xaml
+    /// Interaction logic for Impressum.xaml
     /// </summary>
-    public partial class Settings : UserControl
+    public partial class Impressum : UserControl
     {
-        public Settings()
+        public Impressum()
         {
             InitializeComponent();
         }

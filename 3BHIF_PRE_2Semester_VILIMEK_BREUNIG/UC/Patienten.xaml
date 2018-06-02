@@ -14,22 +14,26 @@
 		<Grid.RowDefinitions>
 			<RowDefinition Height="auto"/>
 			<RowDefinition/>
-		</Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
 		<ComboBox x:Name="cbox0" Grid.Column="0" Grid.Row="0" SelectionChanged="SelectionChanged">
 			<ComboBoxItem IsSelected="True">Bitte Auswählen</ComboBoxItem>
-			<ComboBoxItem>Besuch</ComboBoxItem>
-			<ComboBoxItem>Patient</ComboBoxItem>
+            <!--<ComboBoxItem>Besuch</ComboBoxItem>-->
+            <ComboBoxItem>Patient</ComboBoxItem>
 			<ComboBoxItem>Termin</ComboBoxItem>
 		</ComboBox>
 		<ComboBox x:Name="cbox1" Grid.Column="1" Grid.Row="0" SelectionChanged="SelectionChanged">
 			<ComboBoxItem IsSelected="True">Bitte Auswählen</ComboBoxItem>
-			<ComboBoxItem>Behandlung</ComboBoxItem>
-			<ComboBoxItem>Besuch</ComboBoxItem>
-			<ComboBoxItem>Patient</ComboBoxItem>
-			<ComboBoxItem>Termin</ComboBoxItem>
+            <ComboBoxItem>Patient</ComboBoxItem>
+            <ComboBoxItem>Termin</ComboBoxItem>
+            <ComboBoxItem>Behandlung</ComboBoxItem>
+            <!--<ComboBoxItem>Besuch</ComboBoxItem>-->
 			<ComboBoxItem>Verletzung</ComboBoxItem>
 		</ComboBox>
-		<ListBox Grid.ColumnSpan="2" Grid.Row="1" MouseDoubleClick="ListBox_MouseDoubleClick"/>
-		<ListBox Grid.Column="1" Grid.Row="1" Visibility="Hidden"/>
-	</Grid>
+        <ListBox x:Name="lb1" Grid.ColumnSpan="2" Grid.Row="1" MouseDoubleClick="ListBox_MouseDoubleClick"/>
+        <ListBox x:Name="lb2" Grid.Column="1" Grid.Row="1" Visibility="Hidden" MouseDoubleClick="ListBox_MouseDoubleClick_1"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="left" Grid.Row="2">
+            <Button x:Name="Save" IsDefault="True"  Content="Neu"  Margin="4" Click="Add_Click"/>
+        </StackPanel>
+    </Grid>
 </UserControl>

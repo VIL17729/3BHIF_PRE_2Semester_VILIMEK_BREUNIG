@@ -7,6 +7,26 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Hilfe" FontSize="50" HorizontalAlignment="Center" Margin="0 0 0 20" />
+        <StackPanel Grid.Row="1" Margin="5 0">
+            <TextBlock Text="Wofür steht EWMS?" FontSize="25" FontWeight="Bold"/>
+            <TextBlock FontSize="20" Margin="10 5">
+                <Run Text="EWMS:"/>
+                <Run Text="E" FontWeight="Bold"/>
+                <Run Text="ierlegende"/>
+                <Run Text="w" FontWeight="Bold"/>
+                <Run Text="oll"/>
+                <Run Text="m" FontWeight="Bold"/>
+                <Run Text="ich"/>
+                <Run Text="S" FontWeight="Bold"/>
+                <Run Text="au"/>
+            </TextBlock>
+            <TextBlock Text="Wenn kann ich im Problemfall Kontaktieren?" FontSize="25" FontWeight="Bold"/>
+            <TextBlock Text="Die Kontaktdaten zu den Verantwortlichen stehen alle im Impressum." FontSize="20" Margin="10 5"/>
+        </StackPanel>
     </Grid>
 </UserControl>
